@@ -57,3 +57,51 @@ main {
   margin-right: 1rem;
   margin-top: 1rem;
 }
+
+/* intro section start here */
+
+.intro {
+  margin: 0 auto;
+  max-width: 37.5rem;
+  padding: 1.45rem 1.0875rem;
+  background: url('./assets/background-img/header-shapes-mobile.svg') 0 50px no-repeat;
+  background-size: 100% auto;
+  border-bottom-left-radius: 150px;
+  min-height: 600px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.primary-text {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.625rem;
+  line-height: 3.25rem;
+  color: #172b4d;
+  align-items: center;
+}
+
+.dividerText {
+  height: 1rem;
+}
+
+.secondary-text {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.link-text {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #7f8cff;
+}
