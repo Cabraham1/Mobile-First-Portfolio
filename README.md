@@ -22,6 +22,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Mobile-First-Portfolio] <a name="about-project"></a>
+This project aims to build a simple, one-page responsive portfolio website to showcase prior personal projects. The project requires you to configure an HTML-CSS linter according to provided guidelines, design the website to prioritize mobile devices, and implement it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -30,10 +31,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ABOUT THE PROJECT -->
-
-## 💻 About the project <a name=about-project"></a>
-The purpose of this project is to create a basic single-page responsive portfolio project that will house all previous personal projects. In this project, you are required to set up Html-CSS linter according to the guidelines specified in the Html-CSS linter config instructions, create the website using a mobile first, run.
 
 <!-- GETTING STARTED -->
 
