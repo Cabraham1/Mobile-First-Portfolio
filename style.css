@@ -105,3 +105,13 @@ main {
   font-size: 1.2rem;
   color: #7f8cff;
 }
+
+/* this section are for the social links */
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
