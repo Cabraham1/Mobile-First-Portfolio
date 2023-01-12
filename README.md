@@ -12,16 +12,28 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Mobile-First-Portfolio] <a name="about-project"></a>
+
 This project aims to build a simple, one-page responsive portfolio website to showcase prior personal projects. The project requires you to configure an HTML-CSS linter according to provided guidelines, design the website to prioritize mobile devices, and implement it.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -30,7 +42,6 @@ This project aims to build a simple, one-page responsive portfolio website to sh
 - Git, Github and Visual Studio Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
