@@ -59,7 +59,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Choose a directory
 - Open a Terminal
-- write: git clone https://github.com/Cabraham1/Mobile-First-Portfolio
+- write: git clone https://github.com/Cabraham1/Mobile-First-Portfolio.git
 - get into to directory "Mobile-First-Portfolio"
 - write: npm install
 
