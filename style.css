@@ -115,3 +115,28 @@ main {
   gap: 1.2rem;
   margin-top: 1rem;
 }
+
+.workDivider {
+  height: 1rem;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: column;
+  justify-content: center;
+  max-width: 37.5rem;
+}
+
+.projesct-one-img {
+  width: 22rem;
+}
+
+.projectone-header {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 44px;
+  color: #172b4d;
+  width: 22rem;
+  margin-top: 1rem;
+}
