@@ -21,13 +21,13 @@ body {
   height: 100vh;
 }
 
-/* main {
+main {
   display: grid;
   grid-template-columns: column;
   width: 100%;
   height: 100vh;
   background-color: #fff;
-} */
+}
 
 .nav-container {
   display: flex;
