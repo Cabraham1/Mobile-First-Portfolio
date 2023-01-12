@@ -156,7 +156,7 @@ main {
   color: #172b4d;
 }
 
-.project-text>p {
+.project-text > p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -249,7 +249,7 @@ button :disabled {
   width: 100%;
 }
 
-.language>h1 {
+.language > h1 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -257,7 +257,7 @@ button :disabled {
   line-height: 2rem;
 }
 
-.language>img {
+.language > img {
   color: blue;
   cursor: pointer;
   margin-right: 1rem;
@@ -277,11 +277,11 @@ button :disabled {
   border-radius: 8px;
 }
 
-.language-snippets>li {
+.language-snippets > li {
   margin-left: 1rem;
 }
 
-.language-snippets>li>p {
+.language-snippets > li > p {
   color: #253858;
 }
 
