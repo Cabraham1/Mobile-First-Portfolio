@@ -270,7 +270,7 @@ button :disabled {
   display: flex;
   flex-direction: column;
   border-top-right-radius: 150px;
-  padding-left: 1rem ;
+  padding-left: 2rem ;
   background-color: #FFFF;
 }
 
@@ -290,16 +290,16 @@ button :disabled {
 .language {
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
-  width: 100%;
+  margin-top: 1rem;
+  width: 18rem;
 }
 
-.language>h1 {
+.language h2 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 1.5rem;
+  color: black;
 }
 
 .language>img {
@@ -309,15 +309,15 @@ button :disabled {
 }
 
 .language-snippets-container {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .language-snippets {
   display: flex;
-  width: 100%;
+  width: 20rem;
   align-items: center;
   height: 5rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   background: #f7f7f9;
   border-radius: 8px;
 }
@@ -330,6 +330,11 @@ button :disabled {
   color: #253858;
 }
 
+
+
+
 hr {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 20rem;
 }
