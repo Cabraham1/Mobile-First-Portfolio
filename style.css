@@ -140,3 +140,70 @@ main {
   width: 22rem;
   margin-top: 1rem;
 }
+
+.project-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.projectHeading {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #172b4d;
+}
+
+.project-text>p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color: #344563;
+  margin-top: 1rem;
+}
+
+.project-program-laguages {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.program-language {
+  background: #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  padding: 4px 12px;
+  text-align: center;
+  width: 15%;
+  font: 1rem;
+}
+
+.program-language-javascript {
+  background: #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  padding: 4px 12px;
+  text-align: center;
+  width: 40%;
+  height: 2rem;
+  font: 15rem;
+}
+
+.call-to-action {
+  margin-top: 1.5rem;
+  border: 2px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 8rem;
+  background-color: #fff;
+}
