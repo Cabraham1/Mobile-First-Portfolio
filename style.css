@@ -207,3 +207,84 @@ main {
   width: 8rem;
   background-color: #fff;
 }
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 #dfe1e6;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+button :disabled {
+  background-color: #fff;
+  color: #5e6c84;
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 150px;
+}
+
+.primary-text-about {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #172b4d;
+  margin-top: -6rem;
+}
+
+.secondary-text-about {
+  text-align: left;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.language>h1 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.language>img {
+  color: blue;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.language-snippets-container {
+  margin-top: 5rem;
+}
+
+.language-snippets {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 5rem;
+  margin-top: 0.5rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.language-snippets>li {
+  margin-left: 1rem;
+}
+
+.language-snippets>li>p {
+  color: #253858;
+}
+
+hr {
+  margin-top: 1.5rem;
+}
