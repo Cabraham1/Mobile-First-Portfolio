@@ -16,7 +16,7 @@ li {
 
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   width: 100%;
   height: 100vh;
 }
@@ -26,8 +26,9 @@ main {
   grid-template-columns: column;
   width: 100%;
   height: 100vh;
+
   /* background-color: blue; */
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .nav-container {
@@ -37,9 +38,10 @@ main {
   align-items: center;
   height: 3.5rem;
   width: 100%;
+
   /* position: sticky; */
   top: 1rem;
-  background-color: #FFFFFF;
+  background-color: #ffff;
 }
 
 #nameLogo {
@@ -70,7 +72,7 @@ main {
   background-size: 100% auto;
   border-bottom-left-radius: 110px;
   min-height: 700px;
-  background-color: #FFFFFF;
+  background-color: #ffff;
 }
 
 .text-container {
@@ -133,13 +135,10 @@ main {
   grid-template-columns: column;
   justify-content: center;
   max-width: 30.5rem;
-  /* border: 2px solid red; */
   margin-left: 10px;
   margin-right: 11px;
-  background-color: #FFFF;
+  background-color: #ffff;
   border-radius: 16px;
-  /* height: 45rem; */
-
 }
 
 .projesct-one-img {
@@ -156,15 +155,15 @@ main {
   width: 9rem;
   margin-top: 1rem;
 }
+
 .projectone-header1 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-weight:bolder;
+  font-weight: bolder;
   font-size: 1.5rem;
   line-height: 44px;
   color: #172b4d;
   width: 13rem;
   margin-top: 1rem;
-
 }
 
 .project-details {
@@ -182,7 +181,7 @@ main {
   color: #172b4d;
 }
 
-.project-text>p {
+.project-text > p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -208,7 +207,7 @@ main {
   text-align: center;
   width: 20%;
   font: 1rem;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .program-language-javascript {
@@ -220,7 +219,7 @@ main {
   width: 40%;
   height: 2rem;
   font: 15rem;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .call-to-action {
@@ -236,6 +235,7 @@ main {
   background-color: #fff;
   margin-bottom: 2rem;
 }
+
 .call-to-action-resume {
   margin-top: 1.5rem;
   border: 2px solid #6070ff;
@@ -270,8 +270,8 @@ button :disabled {
   display: flex;
   flex-direction: column;
   border-top-right-radius: 150px;
-  padding-left: 2rem ;
-  background-color: #FFFF;
+  padding-left: 2rem;
+  background-color: #ffff;
 }
 
 .primary-text-about {
@@ -302,7 +302,7 @@ button :disabled {
   color: black;
 }
 
-.language>img {
+.language > img {
   color: blue;
   cursor: pointer;
   margin-right: 1rem;
@@ -322,16 +322,13 @@ button :disabled {
   border-radius: 8px;
 }
 
-.language-snippets>li {
+.language-snippets > li {
   margin-left: 1rem;
 }
 
-.language-snippets>li>p {
+.language-snippets > li > p {
   color: #253858;
 }
-
-
-
 
 hr {
   margin-top: 0.5rem;
