@@ -214,11 +214,10 @@ main {
 
 .program-language-javascript {
   float: left;
-  margin-left: 1rem  ;
+  margin-left: 1rem;
   background: #ebebff;
   border-radius: 8px;
   align-items: center;
-  /* padding: 4px 12px; */
   text-align: center;
   width: 40%;
   height: 2rem;
@@ -350,7 +349,7 @@ hr {
 
 .contact-container {
   background: url('./assets/background-img/contact-form-shapes-mobile.svg') 100% 21px no-repeat;
-  background-color: #6070FF;
+  background-color: #6070ff;
   min-height: 779px;
   border-top-left-radius: 150px;
   object-fit: cover;
@@ -360,26 +359,25 @@ hr {
   padding-top: 103px;
   color: #ffff;
   text-align: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
 
-.contact-container p {
+.contact-P {
   padding-top: 12px;
   padding-left: 10px;
   padding-right: 10px;
   color: #ffff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
 }
-
 
 /* form section */
 
@@ -392,10 +390,10 @@ hr {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 1rem ;
+  gap: 1rem;
 }
 
-input{
+input {
   height: 2.9rem;
   width: 20rem;
   border-radius: 5px;
@@ -404,7 +402,6 @@ input{
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: left;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   outline: none;
@@ -420,7 +417,6 @@ textarea {
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   outline: none;
 }
@@ -429,7 +425,7 @@ textarea {
   margin-top: 1rem;
   border: 2px solid #6070ff;
   border-radius: 8px;
-  color: #6070FF;
+  color: #6070ff;
   text-align: center;
   justify-content: center;
   padding: 1rem;
