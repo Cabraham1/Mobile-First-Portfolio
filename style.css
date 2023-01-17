@@ -26,8 +26,7 @@ main {
   grid-template-columns: column;
   width: 100%;
   height: 100vh;
-
-  /* background-color: blue; */
+  background-color: blue;
   background-color: #e5e5e5;
 }
 
@@ -192,14 +191,17 @@ main {
 }
 
 .project-program-laguages {
-  display: flex;
+  /* display: flex;
   justify-content: row;
-  align-items: center;
+  align-items: center; */
   gap: 1rem;
   margin-top: 1rem;
+  padding-right: 2rem;
 }
 
 .program-language {
+  float: left;
+  margin-left: 1rem;
   background: #ebebff;
   border-radius: 8px;
   align-items: center;
@@ -211,10 +213,11 @@ main {
 }
 
 .program-language-javascript {
+  float: left;
+  margin-left: 1rem;
   background: #ebebff;
   border-radius: 8px;
   align-items: center;
-  padding: 4px 12px;
   text-align: center;
   width: 40%;
   height: 2rem;
@@ -334,4 +337,103 @@ hr {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   width: 20rem;
+}
+
+/* =====contact me section====  */
+
+.contact {
+  background-color: #ffff;
+  padding-top: 80px;
+  min-height: 779px;
+}
+
+.contact-container {
+  background: url('./assets/background-img/contact-form-shapes-mobile.svg') 100% 21px no-repeat;
+  background-color: #6070ff;
+  min-height: 779px;
+  border-top-left-radius: 150px;
+  object-fit: cover;
+}
+
+.contact-container h2 {
+  padding-top: 103px;
+  color: #ffff;
+  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact-P {
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffff;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* form section */
+
+.contact-form {
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  height: 2.9rem;
+  width: 20rem;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 1rem;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  outline: none;
+}
+
+textarea {
+  width: 20rem;
+  height: 13rem;
+  border-radius: 5px;
+  border-style: none;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  outline: none;
+}
+
+.getInTouch {
+  margin-top: 1rem;
+  border: 2px solid #6070ff;
+  border-radius: 8px;
+  color: #6070ff;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 10rem;
+  background-color: #fff;
+  margin-left: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }

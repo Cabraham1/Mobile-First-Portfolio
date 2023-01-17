@@ -80,9 +80,10 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="contributor"></a>
 
-Contributions, issues, and feature requests are welcome!
+ *Malcom-Charlie*
+ <br> Coding Partner<br>
 
 Feel free to check the [issues page](../../issues/).
 

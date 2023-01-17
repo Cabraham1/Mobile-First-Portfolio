@@ -11,8 +11,11 @@
 
 <body>
   <main class="container">
+
     <!-- header section -->
+
     <nav class="nav-container">
+
       <a href="#" id="nameLogo">Cabraham</a>
       <a href="#" class="imgLogo"><img class="imgLogo" src="./assets/icons/Union.svg" alt="line-menu"></a>
     </nav>
@@ -263,6 +266,7 @@
         <div class="intro-aboutMe">
           <div class="text-container">
             <h2 class="primary-text-about">About<br>Myself</h2>
+
             <p class="secondary-text">I’m a software developer! I can help <br> you build a product , feature or website
               <br>
               Look through some of my work and <br>experience! If you like what you see and have aproject you need
@@ -341,8 +345,50 @@
           <hr>
         </div>
       </section>
-      <div class="workDivider"></div>
+
       <!-- contact us section -->
+      <section class="contact">
+        <div class="contact-container">
+          <h2>Contact me</h2>
+
+          <p class="contact-P">If you have an application you <br>are interested in
+            developing, a feature that you
+            need to built or a
+            project that needs coding. i'd love to help with it</p>
+
+          <!-- form section -->
+
+          <form class="contact-form" action="https://formspree.io/f/mjvzkbwq" method="POST">
+            <ul class="form-section">
+
+              <li>
+
+                <input type="text" for="name" name="name" maxlength="30" placeholder="Please your name"   
+                  required>
+
+              </li>
+
+              <li>
+
+                <input type="email" for="email" name="email" placeholder="Enter a valid email " required>
+
+              </li>
+
+              <li>
+
+                <textarea for="message" name="message" cols="43" rows="9" maxlength="500"
+                  placeholder="Write your message here" required></textarea>
+
+              </li>
+
+            </ul>
+
+            <button type="submit" class="getInTouch">Get in Touch</button>
+
+          </form>
+
+        </div>
+      </section>
     </div>
   </main>
 </body>
