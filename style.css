@@ -339,3 +339,43 @@ hr {
   margin-bottom: 1rem;
   width: 20rem;
 }
+
+/* =====contact me section====  */
+
+.contact {
+  background-color: #ffff;
+  padding-top: 80px;
+  min-height: 779px;
+}
+
+.contact-container {
+  background: url('./assets/background-img/contact-form-shapes-mobile.svg') 100% 21px no-repeat;
+  background-color: #6070FF;
+  min-height: 779px;
+  border-top-left-radius: 150px;
+  object-fit: cover;
+}
+
+.contact-container h2 {
+  padding-top: 103px;
+  color: #ffff;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact-container p {
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
