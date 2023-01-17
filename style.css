@@ -412,6 +412,7 @@ input{
 
 textarea {
   width: 20rem;
+  height: 13rem;
   border-radius: 5px;
   border-style: none;
   padding-top: 1rem;
@@ -422,4 +423,21 @@ textarea {
   letter-spacing: 0em;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   outline: none;
+}
+
+.getInTouch {
+  margin-top: 1rem;
+  border: 2px solid #6070ff;
+  border-radius: 8px;
+  color: #6070FF;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 10rem;
+  background-color: #fff;
+  margin-left: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
