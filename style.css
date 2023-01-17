@@ -379,3 +379,31 @@ hr {
   line-height: 28px;
   text-align: center;
 }
+
+
+/* form section */
+
+.contact-form {
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem ;
+}
+
+input {
+  height: 2.9rem;
+  width: 20rem;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 1rem;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}

@@ -348,22 +348,37 @@
         <div class="contact-container">
           <h2>Contact me</h2>
 
-          <p>If you have an application you <br>are interested in developing, a feature that you 
-            need to built  or a
+          <p>If you have an application you <br>are interested in developing, a feature that you
+            need to built or a
             project that needs coding. i'd love to help with it</p>
-          <form action="" method="post">
-            <ul>
+
+          <!-- form section -->
+
+          <form action="" method="post" class="contact-form">
+            <ul class="form-section">
+
               <li>
-                <input type="text" for="name" placeholder=" ">
+
+                <input type="text" for="name" name="name" placeholder="Please your name" required>
+
               </li>
+
               <li>
-                <input type="email" for="email">
+
+                <input type="email" for="email" name="email" placeholder="Enter a valid email " required>
+
               </li>
+
               <li>
-                <input type="text" for="message">
-              </li>
+
+                <textarea for="message" name="message" cols="43" rows="10" </li>
+
             </ul>
+
+            <button type="submit" class="getInTouch">Get in Touch</button>
+
           </form>
+          
         </div>
       </section>
     </div>
