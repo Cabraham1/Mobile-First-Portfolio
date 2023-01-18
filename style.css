@@ -72,7 +72,7 @@ main {
   background: url('./assets/background-img/header-shapes-mobile.svg') 0 50px no-repeat;
   background-size: 100% auto;
   border-bottom-left-radius: 110px;
-  min-height: 700px;
+  height: 750px;
   background-color: #ffff;
 }
 
@@ -104,6 +104,7 @@ main {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  border: 1px solid rgb(252, 252, 252);
 }
 
 .linkDivid {
@@ -476,24 +477,27 @@ textarea {
   }
 
   .primary-text {
-    border: 1px solid red;
-    width: 30rem;
+    width: 24rem;
+  }
+
+  .secondary-text {
+    width: 45rem;
   }
 
   .text-container {
     margin-top: 209px;
-    margin-left: 150px;
+    margin-left: 180px;
     width: 70%;
   }
 
   .link-container {
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: 1rem;
     width: 70%;
   }
 
   .social-container {
-    margin-left: 139px;
+    margin-left: 163px;
     width: 70%;
   }
 }
