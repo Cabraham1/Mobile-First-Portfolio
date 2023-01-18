@@ -500,4 +500,16 @@ textarea {
     margin-left: 163px;
     width: 70%;
   }
+
+  /* ==== the home page ends here ======= */
+  .work-container {
+    display: grid;
+    grid-template-columns: column;
+    justify-content: center;
+    max-width: 70.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: #ffff;
+    border-radius: 16px;
+}
 }
