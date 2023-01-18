@@ -195,17 +195,15 @@ main {
 }
 
 .project-program-laguages {
-  /* display: flex;
+  display: flex;
   justify-content: row;
-  align-items: center; */
+  align-items: center;
   gap: 1rem;
   margin-top: 1rem;
   padding-right: 2rem;
 }
 
 .program-language {
-  float: left;
-  margin-left: 1rem;
   background: #ebebff;
   border-radius: 8px;
   align-items: center;
@@ -217,8 +215,6 @@ main {
 }
 
 .program-language-javascript {
-  float: left;
-  margin-left: 1rem;
   background: #ebebff;
   border-radius: 8px;
   align-items: center;
@@ -290,6 +286,14 @@ button :disabled {
   width: 11rem;
 }
 
+/* .project-witeup {
+  border: 1px solid red;
+}
+
+.project-img {
+  border: 1px solid rgb(10, 9, 9);
+} */
+
 
 .language {
   display: flex;
@@ -345,7 +349,8 @@ hr {
 .contact {
   background-color: #ffff;
   padding-top: 80px;
-  min-height: 779px;
+  min-height: 960px;
+  
 }
 
 .contact-container {
@@ -354,6 +359,9 @@ hr {
   min-height: 779px;
   border-top-left-radius: 150px;
   object-fit: cover;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .contact-container h2 {
@@ -477,11 +485,17 @@ textarea {
   }
 
   .primary-text {
-    width: 24rem;
+    width: 25rem;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
   }
 
   .secondary-text {
-    width: 45rem;
+    width: 50rem;
+    line-height: 28px;
+    font-size: 20px;
+    margin: 10px 0;
   }
 
   .text-container {
@@ -503,13 +517,24 @@ textarea {
 
   /* ==== the home page ends here ======= */
   .work-container {
-    display: grid;
-    grid-template-columns: column;
-    justify-content: center;
-    max-width: 70.5rem;
+    display: flex;
+    max-width: 80%;
     margin-left: 4rem;
-    margin-right: 4rem;
     background-color: #ffff;
     border-radius: 16px;
+    gap: 1rem;
+}
+
+.project-witeup {
+  flex: 1;
+  border: 1px solid red;
+}
+
+.project-img {
+  flex: 1;
+  border: 1px solid rgb(10, 9, 9);
+}
+.projesct-one-img {
+  width: 100%;
 }
 }
