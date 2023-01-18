@@ -37,10 +37,12 @@ main {
   align-items: center;
   height: 3.5rem;
   width: 100%;
-
-  /* position: sticky; */
   top: 1rem;
   background-color: #ffff;
+}
+
+.nav-list {
+  display: none;
 }
 
 #nameLogo {
@@ -436,4 +438,60 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+}
+
+/* Desktop site media querry starts here */
+@media only screen and (min-width: 992px) {
+
+  #nameLogo {
+    margin-left: 8rem;
+
+  }
+
+  .imgLogo {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 2rem;
+    margin-right: 10rem;
+  }
+
+  .menu-bar {
+    color: #344563;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .intro {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1.45rem 1.0875rem;
+    background: url('./assets/background-img/Header\ bg.svg') 0 50px no-repeat;
+    background-size: 100% auto;
+    border-bottom-left-radius: 110px;
+    min-height: 700px;
+    background-color: white;
+  }
+
+  .text-container {
+    margin-top: 209px;
+    margin-left: 150px;
+    width: 70%;
+  }
+
+  .link-container {
+    border: 1px solid red;
+    margin-left: 150px;
+    margin-top: 1rem;
+    width: 70%;
+  }
+
+  .social-container {
+    margin-left: 139px;
+    width: 70%;
+  }
 }
