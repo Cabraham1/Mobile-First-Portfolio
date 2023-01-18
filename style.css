@@ -90,6 +90,7 @@ main {
   line-height: 3.25rem;
   color: #172b4d;
   align-items: center;
+  width: 18rem;
 }
 
 .dividerText {
@@ -103,6 +104,8 @@ main {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  border: 1px solid red;
+  width: 20rem;
 }
 
 .linkDivid {
@@ -288,9 +291,6 @@ button :disabled {
   width: 11rem;
 }
 
-.secondary-text-about {
-  text-align: left;
-}
 
 .language {
   display: flex;
@@ -477,6 +477,11 @@ textarea {
     background-color: white;
   }
 
+  .primary-text {
+    border: 1px solid red;
+    width: 30rem;
+  }
+
   .text-container {
     margin-top: 209px;
     margin-left: 150px;
@@ -484,7 +489,6 @@ textarea {
   }
 
   .link-container {
-    border: 1px solid red;
     margin-left: 150px;
     margin-top: 1rem;
     width: 70%;
