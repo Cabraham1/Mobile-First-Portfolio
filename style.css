@@ -524,9 +524,9 @@ textarea {
   }
 
   /* ==== the home page ends here ======= */
+
   .work-container {
     display: flex;
-    /* justify-content: center; */
     max-width: 80%;
     margin-left: 8rem;
     background-color: #ffff;
@@ -535,6 +535,11 @@ textarea {
     gap: 2rem;
     border: 1px solid red;
 }
+.work-container-reverse {
+  border: 1px solid green;
+  flex-direction: row-reverse;
+}
+
 
   .project-witeup {
     flex: 1;
