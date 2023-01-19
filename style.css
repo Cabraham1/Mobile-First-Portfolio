@@ -523,10 +523,8 @@ textarea {
     background-color: #ffff;
     border-radius: 16px;
     max-height: 80rem;
-    border: 1px solid red;
-}
+  }
 .work-container-reverse {
-  border: 1px solid green;
   flex-direction: row-reverse;
 }
 
@@ -560,7 +558,6 @@ textarea {
     gap: 1rem;
     margin-top: 1rem;
     padding-right: 2rem;
-    border: 1px solid yellow;
     margin-left: 2rem;
   }
 
@@ -589,21 +586,41 @@ textarea {
   .projectone-header {
     font-size: 40px;
     line-height: 52px;
-    border: 1px solid red;
     width: 15rem;
     margin-left: 2rem;
+    margin-top: 2rem;
   }
   
   .projectone-header1 {
       font-family: Poppins;
-      font-size: 34px;
+      font-size: 30px;
       font-weight: 700;
       line-height: 52px;
       letter-spacing: 0em;
       text-align: left;
       width: 29rem;
       margin-left: 2rem;
-      border: 1px solid red;
+      margin-top: 2rem;
   }
 
+  .project-details {
+    margin-left: 2rem;
+  }
+
+  .project-text>p {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: #344563;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 25rem;
+  }
+
+  /* ===button section ====== */
+  .call-to-action {
+    margin-left: 2rem;
+}
 }
