@@ -169,7 +169,7 @@ main {
 
 .projectone-header-Dk {
 display: none;
-}
+} 
 
 .projectone-header1 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -179,6 +179,10 @@ display: none;
   color: #172b4d;
   width: 13rem;
   margin-top: 1rem;
+}
+
+.projectone-header1-DK {
+  display: none;
 }
 
 .project-details {
@@ -598,24 +602,33 @@ textarea {
   .projectone-header {
     display: none;
   }
+
   .projectone-header-Dk {
-    font-size: 40px;
+    font-size: 27px;
     line-height: 52px;
     width: 15rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-top: 2rem;
+    color: #091E42;
+    display: block;
+    width: 28rem;
   }
   
   .projectone-header1 {
+    display: none;
+  }
+  .projectone-header1-DK{
       font-family: Poppins;
       font-size: 30px;
       font-weight: 700;
+      color: #091E42;
       line-height: 52px;
       letter-spacing: 0em;
       text-align: left;
       width: 29rem;
       margin-left: 2rem;
       margin-top: 2rem;
+      display: block;
   }
 
   .project-details {
