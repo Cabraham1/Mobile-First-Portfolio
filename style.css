@@ -149,6 +149,10 @@ main {
   width: 320px;
 }
 
+.image-dektop-1 {
+  display: none;
+}
+
 .projectone-header {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -447,8 +451,12 @@ textarea {
   line-height: 24px;
 }
 
+
+
 /* Desktop site media querry starts here */
 @media only screen and (min-width: 992px) {
+
+ 
 
   #nameLogo {
     margin-left: 8rem;
@@ -518,23 +526,32 @@ textarea {
   /* ==== the home page ends here ======= */
   .work-container {
     display: flex;
-    max-width: 80%;
-    margin-left: 4rem;
+    max-width: 98%;
+    /* margin-left: 2rem; */
     background-color: #ffff;
     border-radius: 16px;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.project-witeup {
-  flex: 1;
-  border: 1px solid red;
-}
+  .project-witeup {
+    flex: 1;
+    /* border: 1px solid red; */
+  }
 
-.project-img {
-  flex: 1;
-  border: 1px solid rgb(10, 9, 9);
-}
-.projesct-one-img {
-  width: 100%;
-}
+  .project-img {
+    flex: 1;
+    /* border: 1px solid rgb(10, 9, 9); */
+  }
+
+  .projesct-one-img {
+    display: none;
+  }
+
+  .image-dektop-1 {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+
 }
