@@ -214,6 +214,10 @@ display: none;
   margin-top: 1rem;
 }
 
+.project-text-DK {
+  display: none;
+}
+
 .project-program-laguages {
   display: flex;
   justify-content: row;
@@ -635,7 +639,10 @@ textarea {
     margin-left: 2rem;
   }
 
-  .project-text>p {
+  .project-text > p {
+    display: none;
+  }
+  .project-text-DK {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -644,7 +651,8 @@ textarea {
     color: #344563;
     margin-top: 1rem;
     margin-left: 2rem;
-    width: 25rem;
+    display: block;
+    width: 30rem;
   }
 
   /* ===button section ====== */
