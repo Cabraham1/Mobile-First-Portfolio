@@ -526,11 +526,14 @@ textarea {
   /* ==== the home page ends here ======= */
   .work-container {
     display: flex;
-    max-width: 98%;
-    /* margin-left: 2rem; */
+    /* justify-content: center; */
+    max-width: 80%;
+    margin-left: 8rem;
     background-color: #ffff;
     border-radius: 16px;
+    max-height: 80rem;
     gap: 2rem;
+    border: 1px solid red;
 }
 
   .project-witeup {
