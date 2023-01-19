@@ -225,6 +225,11 @@ display: none;
   gap: 1rem;
   margin-top: 1rem;
   padding-right: 2rem;
+  
+}
+
+.project-program-laguages-DK {
+  display: none;
 }
 
 .program-language {
@@ -572,6 +577,9 @@ textarea {
   /* ======programming language ========== */
 
   .project-program-laguages {
+    display: none;
+  }
+  .project-program-laguages-DK {
     display: flex;
     justify-content: row;
     align-items: center;
@@ -579,16 +587,17 @@ textarea {
     margin-top: 1rem;
     padding-right: 2rem;
     margin-left: 2rem;
+    width: 5rem;
   }
 
     .program-language {
       background: #ebebff;
       border-radius: 8px;
-      align-items: center;
+      align-items: flex-start;
       /* padding: 4px 12px; */
       text-align: center;
-      width: 15%;
-      font: 1rem;
+      width: 10rem;
+      font: 0.8rem;
       color: #6070ff;
     }
 
@@ -597,10 +606,13 @@ textarea {
     border-radius: 8px;
     align-items: center;
     text-align: center;
-    width: 25%;
+    width: 20rem;
     height: 2rem;
-    font: 15rem;
+    font: 0.8rem;
     color: #6070ff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
   }
 
   .projectone-header {
