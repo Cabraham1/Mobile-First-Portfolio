@@ -144,6 +144,10 @@ main {
   border-radius: 16px;
 }
 
+.section-1 {
+  margin-left: 1rem;
+}
+
 .projesct-one-img {
   padding-top: 1rem;
   width: 320px;
@@ -163,6 +167,10 @@ main {
   margin-top: 1rem;
 }
 
+.projectone-header-Dk {
+display: none;
+}
+
 .projectone-header1 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -179,6 +187,10 @@ main {
   align-items: center;
   gap: 0.5rem;
   margin-top: 1rem;
+}
+
+.project-details-Dk {
+  display: none;
 }
 
 .projectHeading {
@@ -584,6 +596,9 @@ textarea {
   }
 
   .projectone-header {
+    display: none;
+  }
+  .projectone-header-Dk {
     font-size: 40px;
     line-height: 52px;
     width: 15rem;
@@ -623,4 +638,18 @@ textarea {
   .call-to-action {
     margin-left: 2rem;
 }
+
+  .project-details-Dk {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    gap: 1rem;
+  }
+  .project-details{
+    display: none;
+  }
+
 }
