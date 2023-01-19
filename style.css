@@ -290,15 +290,6 @@ button :disabled {
   width: 11rem;
 }
 
-/* .project-witeup {
-  border: 1px solid red;
-}
-
-.project-img {
-  border: 1px solid rgb(10, 9, 9);
-} */
-
-
 .language {
   display: flex;
   justify-content: space-between;
@@ -532,7 +523,6 @@ textarea {
     background-color: #ffff;
     border-radius: 16px;
     max-height: 80rem;
-    gap: 2rem;
     border: 1px solid red;
 }
 .work-container-reverse {
@@ -560,6 +550,60 @@ textarea {
     width: 100%;
     padding: 1rem;
   }
+
+  /* ======programming language ========== */
+
+  .project-program-laguages {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    border: 1px solid yellow;
+    margin-left: 2rem;
+  }
+
+    .program-language {
+      background: #ebebff;
+      border-radius: 8px;
+      align-items: center;
+      /* padding: 4px 12px; */
+      text-align: center;
+      width: 15%;
+      font: 1rem;
+      color: #6070ff;
+    }
+
+  .program-language-javascript {
+    background: #ebebff;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    height: 2rem;
+    font: 15rem;
+    color: #6070ff;
+  }
+
+  .projectone-header {
+    font-size: 40px;
+    line-height: 52px;
+    border: 1px solid red;
+    width: 15rem;
+    margin-left: 2rem;
+  }
   
+  .projectone-header1 {
+      font-family: Poppins;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 52px;
+      letter-spacing: 0em;
+      text-align: left;
+      width: 29rem;
+      margin-left: 2rem;
+      border: 1px solid red;
+  }
 
 }
