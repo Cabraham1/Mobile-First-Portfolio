@@ -470,7 +470,7 @@ textarea {
 }
 
 /* Desktop site media querry starts here */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   #nameLogo {
     margin-left: 8rem;
   }
