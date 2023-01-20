@@ -469,8 +469,6 @@ textarea {
   line-height: 24px;
 }
 
-
-
 /* Desktop site media querry starts here */
 @media only screen and (min-width: 992px) {
   #nameLogo {
