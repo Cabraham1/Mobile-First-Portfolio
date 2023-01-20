@@ -688,14 +688,13 @@ textarea {
 
   .intro-aboutMe {
     display: flex;
-
+    gap: 2rem;
     width: 100%;
   }
-  .language-section {
-    border: 1px solid rgb(201, 12, 12);
+  .language-section-DK {
     flex: 2;
     width: 60%;
-    margin-top:30px;
+    margin-top:5.5rem;
   }
   .about-section {
     width: 40rem;
@@ -751,5 +750,36 @@ textarea {
     .call-to-action-resume-DK {
       margin-left: 0.5rem;
       width: 10rem;
+    }
+
+    .language-DK {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+      width: 35rem;
+    }
+
+    .hr-line {
+      width: 35rem;
+    }
+
+    .dvi{
+      margin-top: 5rem;
+    }
+
+    .language-snippets-DK {
+      display: flex;
+      flex-direction: column;
+      width: 8rem;
+      align-items: flex-start;
+      padding-right: 2rem;;
+      height: 6rem;
+      padding-top: 0.4rem;
+      background: #f7f7f9;
+      border-radius: 8px;
+    }
+
+    .language-snippets-container-DK {
+      display: flex;
     }
 }
