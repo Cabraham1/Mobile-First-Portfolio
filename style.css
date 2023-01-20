@@ -782,4 +782,18 @@ textarea {
     .language-snippets-container-DK {
       display: flex;
     }
+
+    /* .contact-P-DK {
+      border: 1PX solid red;
+      text-align: center;
+      width: 10rem;
+    } */
+
+        .contact-container-DK {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+        }
 }
