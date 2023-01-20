@@ -168,8 +168,8 @@ main {
 }
 
 .projectone-header-Dk {
-display: none;
-} 
+  display: none;
+}
 
 .projectone-header1 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -225,7 +225,6 @@ display: none;
   gap: 1rem;
   margin-top: 1rem;
   padding-right: 2rem;
-  
 }
 
 .project-program-laguages-DK {
@@ -277,7 +276,6 @@ display: none;
   justify-content: center;
   font-size: 1rem;
   padding: 1rem;
-  width: 10rem;
   background-color: #fff;
   margin-bottom: 2rem;
   width: 10rem;
@@ -376,7 +374,6 @@ hr {
   background-color: #ffff;
   padding-top: 80px;
   min-height: 960px;
-  
 }
 
 .contact-container {
@@ -387,7 +384,6 @@ hr {
   object-fit: cover;
   display: flex;
   flex-direction: column;
-
 }
 
 .contact-container h2 {
@@ -477,12 +473,8 @@ textarea {
 
 /* Desktop site media querry starts here */
 @media only screen and (min-width: 992px) {
-
- 
-
   #nameLogo {
     margin-left: 8rem;
-
   }
 
   .imgLogo {
@@ -501,9 +493,6 @@ textarea {
 
   .intro {
     width: 100%;
-  }
-
-  .intro {
     margin: 0 auto;
     max-width: 100%;
     padding: 1.45rem 1.0875rem;
@@ -550,19 +539,17 @@ textarea {
     border-radius: 16px;
     max-height: 80rem;
   }
-.work-container-reverse {
-  flex-direction: row-reverse;
-}
 
+  .work-container-reverse {
+    flex-direction: row-reverse;
+  }
 
   .project-witeup {
     flex: 1;
-    /* border: 1px solid red; */
   }
 
   .project-img {
     flex: 1;
-    /* border: 1px solid rgb(10, 9, 9); */
   }
 
   .projesct-one-img {
@@ -580,6 +567,7 @@ textarea {
   .project-program-laguages {
     display: none;
   }
+
   .project-program-laguages-DK {
     display: flex;
     justify-content: row;
@@ -591,16 +579,17 @@ textarea {
     width: 5rem;
   }
 
-    .program-language {
-      background: #ebebff;
-      border-radius: 8px;
-      align-items: flex-start;
-      /* padding: 4px 12px; */
-      text-align: center;
-      width: 10rem;
-      font: 0.8rem;
-      color: #6070ff;
-    }
+  .program-language {
+    background: #ebebff;
+    border-radius: 8px;
+    align-items: flex-start;
+
+    /* padding: 4px 12px; */
+    text-align: center;
+    width: 10rem;
+    font: 0.8rem;
+    color: #6070ff;
+  }
 
   .program-language-javascript {
     background: #ebebff;
@@ -623,38 +612,40 @@ textarea {
   .projectone-header-Dk {
     font-size: 27px;
     line-height: 52px;
-    width: 15rem;
     margin-left: 1.5rem;
     margin-top: 2rem;
-    color: #091E42;
+    color: #091e42;
     display: block;
     width: 28rem;
   }
-  
+
   .projectone-header1 {
     display: none;
   }
-  .projectone-header1-DK{
-      font-family: Poppins;
-      font-size: 30px;
-      font-weight: 700;
-      color: #091E42;
-      line-height: 52px;
-      letter-spacing: 0em;
-      text-align: left;
-      width: 29rem;
-      margin-left: 2rem;
-      margin-top: 2rem;
-      display: block;
+
+  .projectone-header1-DK {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #091e42;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 29rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: block;
   }
 
   .project-details {
     margin-left: 2rem;
+    display: none;
   }
 
   .project-text > p {
     display: none;
   }
+
   .project-text-DK {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -664,6 +655,7 @@ textarea {
     color: #344563;
     margin-top: 1rem;
     margin-left: 2rem;
+    padding-right: 1rem;
     display: block;
     width: 30rem;
   }
@@ -671,19 +663,15 @@ textarea {
   /* ===button section ====== */
   .call-to-action {
     margin-left: 2rem;
-}
+  }
 
   .project-details-Dk {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 0.5rem;
     margin-top: 1rem;
     margin-left: 2rem;
     gap: 1rem;
-  }
-  .project-details{
-    display: none;
   }
 
   .intro-aboutMe {
@@ -691,11 +679,13 @@ textarea {
     gap: 2rem;
     width: 100%;
   }
+
   .language-section-DK {
     flex: 2;
     width: 60%;
-    margin-top:5.5rem;
+    margin-top: 5.5rem;
   }
+
   .about-section {
     width: 40rem;
     padding-left: 1rem;
@@ -744,56 +734,68 @@ textarea {
 
   .social-container-1 {
     width: 70%;
-      margin-left: 10.6rem;
+    margin-left: 10.6rem;
   }
 
-    .call-to-action-resume-DK {
-      margin-left: 0.5rem;
-      width: 10rem;
-    }
+  .call-to-action-resume-DK {
+    margin-left: 0.5rem;
+    width: 10rem;
+  }
 
-    .language-DK {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 1rem;
-      width: 35rem;
-    }
+  .language-DK {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 35rem;
+  }
 
-    .hr-line {
-      width: 35rem;
-    }
+  .hr-line {
+    width: 35rem;
+  }
 
-    .dvi{
-      margin-top: 5rem;
-    }
+  .dvi {
+    margin-top: 5rem;
+  }
 
-    .language-snippets-DK {
-      display: flex;
-      flex-direction: column;
-      width: 8rem;
-      align-items: flex-start;
-      padding-right: 2rem;;
-      height: 6rem;
-      padding-top: 0.4rem;
-      background: #f7f7f9;
-      border-radius: 8px;
-    }
+  .language-snippets-DK {
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    align-items: flex-start;
+    padding-right: 2rem;
+    height: 6rem;
+    padding-top: 0.4rem;
+    background: #f7f7f9;
+    border-radius: 8px;
+  }
 
-    .language-snippets-container-DK {
-      display: flex;
-    }
+  .language-snippets-container-DK {
+    display: flex;
+    gap: 1rem;
+  }
 
-    /* .contact-P-DK {
-      border: 1PX solid red;
-      text-align: center;
-      width: 10rem;
-    } */
+  .contact-container-DK {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 
-        .contact-container-DK {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          width: 100%;
-        }
+  .contact-P-DK {
+    width: 45rem;
+    text-align: center;
+  }
+
+  .input-DK {
+    width: 30rem;
+  }
+
+  .getInTouch-DK {
+    margin-left: 9rem;
+  }
+
+  .contact-DK {
+    min-height: 772px;
+  }
 }
