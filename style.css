@@ -280,6 +280,7 @@ display: none;
   width: 10rem;
   background-color: #fff;
   margin-bottom: 2rem;
+  width: 10rem;
 }
 
 button:hover {
@@ -304,6 +305,11 @@ button :disabled {
   border-top-right-radius: 150px;
   padding-left: 2rem;
   background-color: #ffff;
+}
+
+.text-container-about {
+  margin-top: 100px;
+  width: 20rem;
 }
 
 .primary-text-about {
@@ -534,11 +540,6 @@ textarea {
     width: 70%;
   }
 
-  .social-container {
-    margin-left: 163px;
-    width: 70%;
-  }
-
   /* ==== the home page ends here ======= */
 
   .work-container {
@@ -685,4 +686,70 @@ textarea {
     display: none;
   }
 
+  .intro-aboutMe {
+    display: flex;
+
+    width: 100%;
+  }
+  .language-section {
+    border: 1px solid rgb(201, 12, 12);
+    flex: 2;
+    width: 60%;
+    margin-top:30px;
+  }
+  .about-section {
+    width: 40rem;
+    padding-left: 1rem;
+    flex: 1;
+  }
+
+  .text-container-about-DK {
+    margin-top: 100px;
+    margin-left: 18px;
+    width: 40%;
+  }
+
+  .primary-text-about {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #172b4d;
+    margin-top: -1rem;
+    width: 11rem;
+  }
+
+  .secondary-text-about {
+    width: 27rem;
+    line-height: 28px;
+    font-size: 15px;
+    margin: 10px 0;
+  }
+
+  .link-text-DK {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #7f8cff;
+    margin-left: 1rem;
+  }
+
+  .social-container-DK {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    width: 70%;
+  }
+
+  .social-container-1 {
+    width: 70%;
+      margin-left: 10.6rem;
+  }
+
+    .call-to-action-resume-DK {
+      margin-left: 0.5rem;
+      width: 10rem;
+    }
 }
