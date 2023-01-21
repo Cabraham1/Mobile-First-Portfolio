@@ -470,7 +470,7 @@ textarea {
 }
 
 @media only screen and (min-width: 425px) {
-.getInTouch {
+  .getInTouch {
     margin-top: 1rem;
     border: 2px solid #6070ff;
     border-radius: 8px;
@@ -487,8 +487,6 @@ textarea {
     line-height: 24px;
   }
 }
-
-
 
 /* Desktop site media querry starts here */
 @media only screen and (min-width: 600px) {
