@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&display=swap');
 
 a {
@@ -373,7 +374,6 @@ hr {
 .contact {
   background-color: #ffff;
   padding-top: 80px;
-  min-height: 960px;
 }
 
 .contact-container {
@@ -462,15 +462,36 @@ textarea {
   padding: 1rem;
   width: 10rem;
   background-color: #fff;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
 }
 
+@media only screen and (min-width: 425px) {
+.getInTouch {
+    margin-top: 1rem;
+    border: 2px solid #6070ff;
+    border-radius: 8px;
+    color: #6070ff;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #fff;
+    margin-left: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+
+
 /* Desktop site media querry starts here */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   #nameLogo {
     margin-left: 8rem;
   }
