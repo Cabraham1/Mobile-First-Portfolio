@@ -57,6 +57,7 @@ main {
   line-height: 20px;
   color: #6070ff;
   margin-top: 1rem;
+  transform: rotate3d(0, 1, 1, 342deg);
 }
 
 .imgLogo {
