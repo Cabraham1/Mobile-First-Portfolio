@@ -208,7 +208,7 @@ main {
   color: #172b4d;
 }
 
-.project-text>p {
+.project-text > p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -337,7 +337,7 @@ button :disabled {
   color: black;
 }
 
-.language>img {
+.language > img {
   color: blue;
   cursor: pointer;
   margin-right: 1rem;
@@ -357,11 +357,11 @@ button :disabled {
   border-radius: 8px;
 }
 
-.language-snippets>li {
+.language-snippets > li {
   margin-left: 1rem;
 }
 
-.language-snippets>li>p {
+.language-snippets > li > p {
   color: #253858;
 }
 
@@ -658,7 +658,7 @@ textarea {
     display: none;
   }
 
-  .project-text>p {
+  .project-text > p {
     display: none;
   }
 
