@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&display=swap');
 
 a {
@@ -7,6 +6,10 @@ a {
 
 li {
   list-style: none;
+}
+
+label {
+  display: none;
 }
 
 * {
@@ -55,7 +58,7 @@ main {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #5564eb;
   margin-top: 1rem;
 }
 
@@ -116,7 +119,7 @@ main {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
-  color: #7f8cff;
+  color: #4d5bd9;
 }
 
 /* this section are for the social links */
@@ -239,7 +242,7 @@ main {
   text-align: center;
   width: 20%;
   font: 1rem;
-  color: #6070ff;
+  color: #5564eb;
 }
 
 .program-language-javascript {
@@ -250,12 +253,12 @@ main {
   width: 40%;
   height: 2rem;
   font: 15rem;
-  color: #6070ff;
+  color: #5564eb;
 }
 
 .call-to-action {
   margin-top: 1.5rem;
-  border: 2px solid #6070ff;
+  border: 2px solid #5564eb;
   border-radius: 8px;
   color: #396df2;
   text-align: center;
@@ -269,7 +272,7 @@ main {
 
 .call-to-action-resume {
   margin-top: 1.5rem;
-  border: 2px solid #6070ff;
+  border: 2px solid #5564eb;
   border-radius: 8px;
   color: #396df2;
   text-align: center;
@@ -282,7 +285,7 @@ main {
 }
 
 button:hover {
-  background-color: #6070ff;
+  background-color: #5564eb;
   color: #fff;
   box-shadow: 0 8px 16px 0 #dfe1e6;
 }
@@ -377,7 +380,7 @@ hr {
 
 .contact-container {
   background: url('./assets/background-img/contact-form-shapes-mobile.svg') 100% 21px no-repeat;
-  background-color: #6070ff;
+  background-color: #5564eb;
   min-height: 779px;
   border-top-left-radius: 150px;
   object-fit: cover;
@@ -453,9 +456,9 @@ textarea {
 
 .getInTouch {
   margin-top: 1rem;
-  border: 2px solid #6070ff;
+  border: 2px solid #5564eb;
   border-radius: 8px;
-  color: #6070ff;
+  color: #5564eb;
   text-align: center;
   justify-content: center;
   padding: 1rem;
@@ -471,9 +474,9 @@ textarea {
 @media only screen and (min-width: 425px) {
   .getInTouch {
     margin-top: 1rem;
-    border: 2px solid #6070ff;
+    border: 2px solid #5564eb;
     border-radius: 8px;
-    color: #6070ff;
+    color: #5564eb;
     text-align: center;
     justify-content: center;
     padding: 1rem;
@@ -601,7 +604,7 @@ textarea {
     text-align: center;
     width: 10rem;
     font: 0.8rem;
-    color: #6070ff;
+    color: #5564eb;
   }
 
   .program-language-javascript {
@@ -612,7 +615,7 @@ textarea {
     width: 20rem;
     height: 2rem;
     font: 0.8rem;
-    color: #6070ff;
+    color: #5564eb;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.2rem;
@@ -731,7 +734,7 @@ textarea {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
-    color: #7f8cff;
+    color: #4d5bd9;
     margin-left: 1rem;
   }
 
@@ -810,5 +813,9 @@ textarea {
 
   .contact-DK {
     min-height: 772px;
+  }
+
+  label {
+    display: none;
   }
 }
