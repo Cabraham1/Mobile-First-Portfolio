@@ -43,6 +43,18 @@ This project aims to build a simple, one-page responsive portfolio website to sh
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demoemo <a name="#live-demo"></a>
+[Live Demo Link](https://cabraham1.github.io/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🛠 Built With <a name="built-with"></a>
+
+- HTML & CSS
+- Git, Github and Visual Studio Code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -80,11 +92,13 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="contributor"></a>
 
-Contributions, issues feature requests are welcome!
+ *jrmcuervom*
+ *Malcom-Charlie*
+ <br> Coding Partner<br>
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check out [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
