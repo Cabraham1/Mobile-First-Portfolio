@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
