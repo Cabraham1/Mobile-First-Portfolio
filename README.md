@@ -96,6 +96,7 @@ To get a local copy up and running follow these simple example steps.
 
  *jrmcuervom*
  *Malcom-Charlie*
+ *Alejandro Bernal Marín*
  <br> Coding Partner<br>
 
 Feel free to check the [issues page](../../issues/).
