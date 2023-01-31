@@ -39,15 +39,12 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 3.5rem;
   width: 100%;
   top: 1rem;
   background-color: #ffff;
+
 }
 
-.nav-list {
-  display: none;
-}
 
 #nameLogo {
   margin-left: 1.5rem;
@@ -62,6 +59,7 @@ main {
   margin-top: 1rem;
 }
 
+
 .bar {
   display: block;
   width: 20px;
@@ -72,6 +70,7 @@ main {
   transition: all 0.3s ease-in-out;
   background-color: #6070FF;
 }
+
 
 @media screen and (min-width: 330px) and (max-width: 599px) {
   .hamburger {
@@ -127,6 +126,8 @@ main {
     font-size: 1.7rem;
   }
 }
+
+
 
 
 /* intro section start here */
@@ -270,7 +271,7 @@ main {
   color: #172b4d;
 }
 
-.project-text > p {
+.project-text>p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -399,7 +400,7 @@ button :disabled {
   color: black;
 }
 
-.language > img {
+.language>img {
   color: blue;
   cursor: pointer;
   margin-right: 1rem;
@@ -419,11 +420,11 @@ button :disabled {
   border-radius: 8px;
 }
 
-.language-snippets > li {
+.language-snippets>li {
   margin-left: 1rem;
 }
 
-.language-snippets > li > p {
+.language-snippets>li>p {
   color: #253858;
 }
 
@@ -553,9 +554,22 @@ textarea {
 }
 
 /* Desktop site media querry starts here */
+
 @media only screen and (min-width: 600px) {
-  #nameLogo {
-    margin-left: 8rem;
+
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 1rem;
+    gap: 40rem;
+    background-color: #ffff;
+  }
+
+  .nav-link:hover {
+    color: #2230d2;
   }
 
   .imgLogo {
@@ -576,12 +590,6 @@ textarea {
   .nav-link {
     color: #344563;
     width: 10rem;
-  }
-
-  
-
-  .menu-bar {
-    color: #344563;
   }
 
   .intro {
@@ -732,7 +740,7 @@ textarea {
     display: none;
   }
 
-  .project-text > p {
+  .project-text>p {
     display: none;
   }
 
