@@ -562,11 +562,23 @@ textarea {
     display: none;
   }
 
-  .nav-list {
-    display: flex;
-    gap: 2rem;
-    margin-right: 10rem;
-  }
+     .hamburger {
+       display: none;
+     }
+  
+     .nav-menu {
+       display: flex;
+       gap: 2rem;
+       margin-top: 1rem;
+       margin-right: 10rem;
+     }
+  
+     .nav-link {
+       color: #344563;
+       width: 10rem;
+     }
+
+  
 
   .menu-bar {
     color: #344563;
