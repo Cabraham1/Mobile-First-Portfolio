@@ -2,13 +2,20 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+
   <!-- =====favicon======= -->
+
   <link href="./assets/icons/abraham.jpg" rel="icon">
+
   <title>Abraham Portfolio</title>
+
 </head>
 
 <body>
@@ -16,33 +23,39 @@
 
     <!-- header section -->
 
-    <nav class="nav-container">
+    <nav class="nav-container ">
 
       <a href="#" id="nameLogo">Cabraham</a>
 
-      <a href="#" class="imgLogo"><img class="imgLogo" src="./assets/icons/Union.svg" alt="line-menu"></a>
+      <!-- <a href="#" class="imgLogo" id="navIcon"><img class="imgLogo" src="./assets/icons/Union.svg" alt="line-menu"></a> -->
 
-      <ul class="nav-list">
+      <ul class="nav-menu">
 
-        <li>
+        <li class="nav-item">
 
-          <a href="#portfolio" class="menu-bar" id="portfolio-link">Portfolio</a>
-
-        </li>
-
-        <li>
-
-          <a href="#about" class="menu-bar" id="about-link">About</a>
+          <a href="#portfolio" class="nav-link" id="portfolio-link">Portfolio</a>
 
         </li>
 
-        <li>
+        <li class="nav-item">
 
-          <a href="#contact" class="menu-bar" id="contact-link">Contact</a>
+          <a href="#about" class="nav-link" id="about-link">About</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a href="#contact" class="nav-link" id="contact-link">Contact</a>
 
         </li>
 
       </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
 
     </nav>
 
@@ -100,6 +113,7 @@
         </ul>
       </div>
     </div>
+
     <!-- intro end  -->
 
     <div class="workDivider"></div>
@@ -108,7 +122,7 @@
 
       <!-- portfolio section -->
 
-      <section class="work-container">
+      <section class="work-container" id="portfolio">
         <div class="project-img section-1">
           <img class='projesct-one-img' src="./assets/background-img/Snapshoot-Portfolio.svg" alt="work background">
           <img class='image-dektop-1' src="./assets/background-img/Snapshoot-Portfolio.png" alt="work background">
@@ -164,6 +178,7 @@
           </div>
 
           <!-- programming language used -->
+
           <ul class="project-program-laguages">
             <li class="program-language">
               <p>html</p>
@@ -193,8 +208,11 @@
           </ul>
 
           <!-- project call to action section -->
+
           <button type="submit" class="call-to-action">See Project</button>
+
         </div>
+
       </section>
       <!-- project one end -->
 
@@ -231,7 +249,9 @@
                 <p>2015</p>
               </li>
             </ul>
+
             <!-- ===desktop ====== -->
+
             <ul class="project-details-Dk">
               <li>
                 <h4 class="projectHeading">FACEBOOK</h4>
@@ -251,12 +271,14 @@
           </div>
 
           <!-- ===desktop ===== -->
+
           <div class="project-text-DK">
             <p>Experimental content creation feature that allows users to add to an existing story over the
               course of a day without spamming their friends.</p>
           </div>
 
           <!-- programming language used -->
+
           <ul class="project-program-laguages">
             <li class="program-language">
               <p>html</p>
@@ -286,14 +308,19 @@
               <p>javaScript</p>
             </li>
           </ul>
+
           <!-- project call to action section -->
+
           <button type="submit" class="call-to-action">See Project</button>
         </div>
       </section>
+
       <!-- project two end -->
+
       <div class="workDivider"></div>
 
       <!-- project three start -->
+
       <section class="work-container">
         <div class="project-img">
           <img class='projesct-one-img' src="./assets/background-img/SnapshootPortfolio11.svg" alt="work-background">
@@ -333,7 +360,7 @@
               <li><img src="./assets/icons/Counter.svg" alt="counter"></li>
               <li>
                 <p>Back End Dev</p>
-              </li>
+              </li>go
               <li><img src="./assets/icons/Counter.svg" alt="counter"></li>
               <li>
                 <p>2015</p>
@@ -487,7 +514,7 @@
         <div class="intro-aboutMe">
           <div class="about-section">
             <div class="text-container-about text-container-about-DK">
-              <h2 class="primary-text-about">About<br>Myself</h2>
+              <h2 class="primary-text-about" id="about">About<br>Myself</h2>
 
               <p class="secondary-text-about">I’m a software developer! I can help you build a product ,
                 feature or website
@@ -579,7 +606,7 @@
       <section class="contact contact-DK">
         <div class="contact-container">
           <div class="contact-container-DK">
-            <h2>Contact me</h2>
+            <h2 id="contact">Contact me</h2>
 
             <p class="contact-P contact-P-DK">If you have an application you <br>are
               interested in developing, a feature that you need to built or a
@@ -621,5 +648,6 @@
     </div>
   </main>
 </body>
+<script src="./js/index.js"></script>
 
 </html>

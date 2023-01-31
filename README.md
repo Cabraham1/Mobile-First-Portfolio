@@ -38,7 +38,7 @@ This project aims to build a simple, one-page responsive portfolio website to sh
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- HTML & CSS
+- HTML & CSS & JavaScript
 - Git, Github and Visual Studio Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -50,7 +50,7 @@ This project aims to build a simple, one-page responsive portfolio website to sh
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🛠 Built With <a name="built-with"></a>
 
-- HTML & CSS
+- HTML & CSS & JavaScript
 - Git, Github and Visual Studio Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,6 +88,10 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/cabraham1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrahamchristopher)
 
+👤 **Alejandro Bernal**
+
+- GitHub: [@githubhandle](https://github.com/Alejandro-Bernal-m)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -96,6 +100,7 @@ To get a local copy up and running follow these simple example steps.
 
  *jrmcuervom*
  *Malcom-Charlie*
+ *Alejandro Bernal Marín*
  <br> Coding Partner<br>
 
 Feel free to check the [issues page](../../issues/).

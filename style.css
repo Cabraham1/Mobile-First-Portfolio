@@ -39,14 +39,9 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 3.5rem;
   width: 100%;
   top: 1rem;
   background-color: #ffff;
-}
-
-.nav-list {
-  display: none;
 }
 
 #nameLogo {
@@ -62,9 +57,69 @@ main {
   margin-top: 1rem;
 }
 
-.imgLogo {
-  margin-right: 1rem;
-  margin-top: 1rem;
+.bar {
+  display: block;
+  width: 20px;
+  margin: 3px auto;
+  height: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+}
+
+@media screen and (min-width: 330px) and (max-width: 599px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
+  }
+
+  .nav-menu {
+    padding-top: 2rem;
+    position: fixed;
+    right: -100%;
+    top: -1px;
+    flex-direction: column;
+    width: 100%;
+    background-color: #6070ff;
+    text-align: left;
+    transition: 0.3s;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(8px);
+  }
+
+  .nav-item {
+    margin-top: 2rem;
+    padding-left: 1rem;
+    width: 351px;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bolder;
+  }
 }
 
 /* intro section start here */
@@ -491,23 +546,41 @@ textarea {
 }
 
 /* Desktop site media querry starts here */
+
 @media only screen and (min-width: 600px) {
-  #nameLogo {
-    margin-left: 8rem;
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 1rem;
+    gap: 40rem;
+    background-color: #ffff;
   }
 
   .imgLogo {
     display: none;
   }
 
-  .nav-list {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
     display: flex;
     gap: 2rem;
+    margin-top: 1rem;
     margin-right: 10rem;
   }
 
-  .menu-bar {
+  .nav-link {
     color: #344563;
+    width: 10rem;
+  }
+
+  .nav-link:hover {
+    color: #2230d2;
   }
 
   .intro {
