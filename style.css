@@ -91,6 +91,7 @@ main {
   }
 
   .nav-menu {
+    padding-top: 2rem;
     position: fixed;
     right: -100%;
     top: -1px;
@@ -117,6 +118,7 @@ main {
   .nav-link {
     color: #fff;
     font-size: 1.7rem;
+    font-weight: bolder;
   }
 }
 
