@@ -1,6 +1,6 @@
-import projectDatas from "./projectDatas.js";
+import projectDatas from './projectDatas.js';
 
-document.querySelector(".card").innerHTML = projectDatas
+document.querySelector('.card').innerHTML = projectDatas
   .map(
     (data) => `
     <section class="${data.class}" id="portfolio">
@@ -88,13 +88,13 @@ document.querySelector(".card").innerHTML = projectDatas
       </section>
       <div class="workDivider"></div>
 
-    `
+    `,
   )
-  .join("");
+  .join('');
 
-  const displayPopup = (data) => {
-    const popupSection = document.querySelector("#popups");
-    popupSection.innerHTML = `
+const displayPopup = (data) => {
+  const popupSection = document.querySelector('#popups');
+  popupSection.innerHTML = `
      <div class="modal-container">
             <div class="modal-head">
               <h1>${data.title}</h1>
@@ -150,19 +150,19 @@ document.querySelector(".card").innerHTML = projectDatas
           </div>
   
     `;
-    popupSection.style.display = "block";
-    popupSection.querySelectorAll(".close").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        document.querySelector(".popups").style.display = "none";
-      });
-    });
-  };
-  
-  const projectButtons = document.querySelectorAll(".call-to-action");
-  projectButtons.forEach((projectButton) => {
-    projectButton.addEventListener("click", (e) => {
-      const index = parseInt(e.target.id,10);
-      
-      displayPopup(projectDatas[index]);
+  popupSection.style.display = 'block';
+  popupSection.querySelectorAll('.close').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelector('.popups').style.display = 'none';
     });
   });
+};
+
+const projectButtons = document.querySelectorAll('.call-to-action');
+projectButtons.forEach((projectButton) => {
+  projectButton.addEventListener('click', (e) => {
+    const index = parseInt(e.target.id, 10);
+
+    displayPopup(projectDatas[index]);
+  });
+});
