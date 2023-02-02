@@ -25,7 +25,6 @@ body {
   height: 100vh;
 }
 
-
 main {
   display: grid;
   grid-template-columns: auto;
@@ -274,14 +273,14 @@ main {
     color: #fff;
   }
 
-    small {
-      color: #000;
-      width: 55%;
-      font-weight: bolder;
-      margin-left: 5rem;
-      width: 50vw;
-      text-align:left;
-    }
+  small {
+    color: #000;
+    width: 55%;
+    font-weight: bolder;
+    margin-left: 5rem;
+    text-align: left;
+    margin-top: 2px;
+  }
 }
 
 /* intro section start here */
@@ -1204,12 +1203,12 @@ textarea {
     color: #fff;
   }
 
-    small {
-      color: #000;
-      width: 70vw;
-      font-weight: bolder;
-      margin-left: 30rem;
-      width: 50vw;
-      text-align: left;
-    }
+  small {
+    color: #000;
+    font-weight: bolder;
+    margin-left: 30rem;
+    width: 50vw;
+    text-align: left;
+    margin-top: 2px;
+  }
 }
