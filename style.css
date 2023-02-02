@@ -25,6 +25,7 @@ body {
   height: 100vh;
 }
 
+
 main {
   display: grid;
   grid-template-columns: auto;
@@ -272,6 +273,15 @@ main {
     background-color: #396df2;
     color: #fff;
   }
+
+    small {
+      color: #000;
+      width: 55%;
+      font-weight: bolder;
+      margin-left: 5rem;
+      width: 50vw;
+      text-align:left;
+    }
 }
 
 /* intro section start here */
@@ -1193,4 +1203,13 @@ textarea {
     background-color: #396df2;
     color: #fff;
   }
+
+    small {
+      color: #000;
+      width: 70vw;
+      font-weight: bolder;
+      margin-left: 30rem;
+      width: 50vw;
+      text-align: left;
+    }
 }
