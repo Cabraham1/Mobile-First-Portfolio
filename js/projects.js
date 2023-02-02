@@ -112,7 +112,7 @@ const displayPopup = (data) => {
               </li>
               <li>${data.canopy[2]}</li>
             </ul>
-            <div class="modal-img-container">
+            <div>
               <img class="modal-img modal-img-MO" src="${data.imageMob}" alt="project images">
               <img class="modal-img modal-img-DK" src="${data.imageDesk}" alt="project images">
             </div>
