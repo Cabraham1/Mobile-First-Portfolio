@@ -91,3 +91,78 @@ document.querySelector(".card").innerHTML = projectDatas
     `
   )
   .join("");
+
+  const displayPopup = (data) => {
+    const popupSection = document.querySelector("#popups");
+    popupSection.innerHTML = `
+     <div class="modal-container">
+            <div class="modal-head">
+              <h1>${data.title}</h1>
+              <button class="close">&times; </button>
+            </div>
+  
+            <ul class="modal-dec">
+              <li>${data.canopy[0]}</li>
+              <li>
+                <img class="modal-dot" src="./assets/icons/Counter.svg" alt="dot">
+              </li>
+              <li>${data.canopy[1]}</li>
+              <li>
+                <img class="modal-dot" src="./assets/icons/Counter.svg" alt="dot">
+              </li>
+              <li>${data.canopy[2]}</li>
+            </ul>
+            <div class="modal-img-container">
+              <img class="modal-img modal-img-MO" src="${data.imageMob}" alt="project images">
+              <img class="modal-img modal-img-DK" src="${data.imageDesk}" alt="project images">
+            </div>
+            <div class="modal-footer">
+  
+  
+              <div class="modal-text footer-1">${data.para}</div>
+              <div class="footer-2">
+                <ul class="modal-technology">
+                  <li class="tech">
+                    <p>${data.tech[0]}</p>
+                  </li>
+                  <li class="tech">
+                    <p>${data.tech[1]}</p>
+                  </li>
+  
+                  <li class="tech javascript">
+                    <p>${data.tech[2]}</p>
+                  </li>
+                </ul>
+  
+                <div class="modal-button">
+                  <a href="${data.live}" class="modal-link">
+                    <p>See Live</p>
+                    <img src="./assets/icons/Icon.svg" alt="icons">
+                  </a>
+  
+                  <a href="${data.source}" class="modal-link">
+                    <p>See Source</p>
+                    <img src="./assets/icons/Vector.svg" alt="icons">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+    `;
+    popupSection.style.display = "block";
+    popupSection.querySelectorAll(".close").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelector(".popups").style.display = "none";
+      });
+    });
+  };
+  
+  const projectButtons = document.querySelectorAll(".call-to-action");
+  projectButtons.forEach((projectButton) => {
+    projectButton.addEventListener("click", (e) => {
+      const index = parseInt(e.target.id,10);
+      
+      displayPopup(projectDatas[index]);
+    });
+  });
