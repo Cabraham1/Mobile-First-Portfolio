@@ -77,7 +77,7 @@ document.querySelector('.card').innerHTML = projectDatas
             </li>
 
             <li class="program-language-javascript">
-              <p>${data.tech[0]}</p>
+              <p>${data.tech[2]}</p>
             </li>
           </ul>
       

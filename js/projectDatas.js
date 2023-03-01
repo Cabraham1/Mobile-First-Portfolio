@@ -1,21 +1,21 @@
 const projectDatas = [
   {
     id: 0,
-    title: 'Tonic',
-    titleDK: 'Tonic',
-    canopy: ['CANOPY', 'Back End Dev', '2015'],
+    title: 'Welead Conferences',
+    titleDK: 'Welead Conferences',
+    canopy: ['Submit', 'Frontend', '2022'],
     dot: '../assets/icons/Counter.svg',
     class: 'work-container',
     para1:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      'WeLead political leadership summit make a major contribution to the transformation of world needs. But, we need more women in power and more power to women so that more can play this transformational role.',
+    para: 'WeLead political leadership summit make a major contribution to the transformation of world needs. But, we need more women in power and more power to women so that more can play this transformational role.',
     para2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     tech: ['html', 'css', 'javascript'],
-    imageMob: '../assets/background-img/Snapshoot-Portfolio.svg',
-    imageDesk: './assets/background-img/Snapshoot-Portfolio.png',
+    imageMob: '../assets/background-img/WeLead conferences - Google Chrome 3_1_2023 7_39_58 PM.png',
+    imageDesk: './assets/background-img/Capture001.png',
     live: 'https://cabraham1.github.io/',
-    source: 'https://github.com/cabraham1',
+    source: 'https://github.com/Cabraham1/WeLead-conference',
   },
   {
     id: 1,
